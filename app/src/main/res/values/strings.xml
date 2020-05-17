@@ -6,4 +6,8 @@
     <string name="jobinfo">JobInfo</string>
     <string name="addressinfo">AddressInfo</string>
     <string name="personalinfo">PersonalInfo</string>
+    <string name="login">Login</string>
+    <string name="confirmpersonalinfo">confirmPersonalInfo</string>
+    <string name="confirmjobinfo">confirmJobInfo</string>
+    <string name="confirmaddressinfo">confirmAddressInfo</string>
 </resources>
