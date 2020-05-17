@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">SwitchBetweenPages</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jobinfo">JobInfo</string>
+    <string name="addressinfo">AddressInfo</string>
+    <string name="personalinfo">PersonalInfo</string>
 </resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/addressInfoFragment"
+        android:name="com.example.switchbetweenpages.AddressInfoFragment"
+        android:label="fragment_address_info"
+        tools:layout="@layout/fragment_address_info" >
+        <action
+            android:id="@+id/action_addressInfoFragment_to_jobInfoFragment"
+            app:destination="@id/jobInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.switchbetweenpages.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_personalInfoFragment"
+            app:destination="@id/personalInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jobInfoFragment"
+        android:name="com.example.switchbetweenpages.JobInfoFragment"
+        android:label="fragment_job_info"
+        tools:layout="@layout/fragment_job_info" />
+    <fragment
+        android:id="@+id/personalInfoFragment"
+        android:name="com.example.switchbetweenpages.PersonalInfoFragment"
+        android:label="fragment_personal_info"
+        tools:layout="@layout/fragment_personal_info" >
+        <action
+            android:id="@+id/action_personalInfoFragment_to_addressInfoFragment"
+            app:destination="@id/addressInfoFragment" />
+    </fragment>
+</navigation>
